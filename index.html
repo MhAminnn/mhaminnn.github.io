@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate to Address</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Convert Titik Koordinat<br> Menjadi Alamat</h2>
+        <div>
+            <label for="latitude">Masukan Nilai Latitude:</label>
+            <input type="text" id="latitude" name="latitude" required>
+        </div>
+        <div>
+            <label for="longitude">Masukan Nilai Longitude:</label>
+            <input type="text" id="longitude" name="longitude" required>
+        </div>
+        <button id="searchButton">Search</button>
+        <div class="result" id="result"></div>
+        <div class="credits" id="credits">
+            Credits: OpenStreetMap // MhAminn Arsyd
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
