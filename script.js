@@ -17,6 +17,6 @@ document.getElementById('searchButton').addEventListener('click', function() {
                 console.error('Error:', error);
             });
     } else {
-        resultDiv.innerHTML = 'Tolong Isi Nilai Yang Sesuai';
+        resultDiv.innerHTML = 'Tolong Isi Nilai Yang Sesuai kontol';
     }
 });
